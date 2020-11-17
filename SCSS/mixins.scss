@@ -1,0 +1,14 @@
+@mixin size($width,$height){
+	width: $width;
+	height: $height;
+}
+
+@mixin flex-justify($flex, $justify){
+	display: $flex;
+	justify-content: $justify;
+}
+
+@mixin gridtemplate($colum, $cantcol, $rows, $cantrow){
+	grid-template-columns: repeat($colum, $cantcol);
+	grid-template-rows: repeat($rows, $cantrow);
+}
