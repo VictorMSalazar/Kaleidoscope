@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/png" href="image/favicon.png">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -15,9 +17,8 @@
 </head>
 <body class="body_def">	
 	<!--Encabezado-->
-	<header class="encabezado" id="inicio">
-<!--Menu-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="inicio">
   <a class="navbar-brand" href="#">Kaleidoscope</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -43,83 +44,95 @@
   </div>
 </nav>
 
-
-
+	<header class="encabezado">
 		<!--Menu-->
-
-		<div class="focus-in-contract">
+			<div class="focus-in-contract">
 			   <p>KALEIDOSCOPE</p>
-		</div>
+			</div>
 
-		<div class="text-flicker-in-glow">
-			<p>Iluminamos tus ideas</p>
-		</div>
+			<div class="text-flicker-in-glow">
+				<p>Iluminamos tus ideas</p>
+			</div>
 	</header>
 
-<!--Icono Flotante Whatsapp-->
+<!--Icono Flotante Whatsapp--
 <div class="boton_flotante">
 	<a href="pages/contacto.html" class="contact_wsp"><img src="image/005-whatsapp.svg" alt="Whatsapp" ></a>
-</div>
+</div>-->
 
 <!--Porque Nosotros-->
-<h2 data-aos="fade-up">¿Por qué Nosotros?</h2>
-<div class="container-fluid Contenedor_Porque_Nosotros" >	
-	<div class="row servicio-cont">
-        <!--Conetenedor 1-->
-		<div class="col-12 col-sm-8 col-md-4 col-lg-4 contenedor_tarjeta_nosotros" data-aos="fade-up">
-			<img src="image/ilustracion1.svg" alt="Mujeres Hablando" class="img_nosotros">
-			<h3>Rápidos a la hora entregar</h3>
-			<p class="texto_nosotros">Nuestra estrcutura ordenada, nos permite llevar a cabo nuestros proyectos de una manera más ágil y rápida</p>
-		</div>
-			    <!--Conetenedor 2-->
-		<div class="col-12 col-sm-8 col-md-3 col-lg-4  contenedor_tarjeta_nosotros" data-aos="fade-up">
-			<img src="image/ilustracion3.svg" alt="Astronauta en la Luna" class="img_nosotros">
-			<h3>Te acompañamos siempre</h3>
-			<p class="texto_nosotros">Nos encargaremos de estar para ti durante todo el proyecto </p>
-		</div>
 
-		    <!--Conetenedor 3-->
-		<div class="col-12 col-sm-8 col-md-3 col-lg-4  contenedor_tarjeta_nosotros" data-aos="fade-up">
-			<img src="image/ilustracion4.svg" alt="Personas" class="img_nosotros">
-			<h3>Comunicación Frecuente</h3>
-			<p class="texto_nosotros">Siempre estarás enterados de los cambios o ideas nuevas que aparezcan durante el proceso</p>
-		</div>
-	</div>
-</div>
-<hr>
-
-
-<!--Nuestros clientes-->
-<section class="container contenedor_clientes" >
-        	<h2 data-aos="fade-up">Nuestros Clientes</h2>
-            <div class="row cards" >
-                <div class="col-8 col-sm-8 col-md-5 col-lg-4 offset-lg-4 card" data-aos="fade-right">
-                    <img src="image/man.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Mario</h4>
-                        <p>Contratar a VicDevelopers fue lo mejor que pude hacer, fueron muy ràpidos a la hora de entregar mi página web personal, los recomiendo.</p>
-                    </div>
+<section class="page-section" id="services">
+            <div class="container mb-5 mt-5 p-5">
+                <div class="text-center titulo-mar">
+                    <h2 class="section-heading text-uppercase" data-aos="fade-up">¿Por qué Nosotros?</h2>
                 </div>
-                <div class="col-8 col-sm-8 col-md-5 col-lg-4 card" data-aos="fade-left">
-                    <img src="image/girl.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Diana</h4>
-                        <p>Fueron muy amables a la hora de atender mis consutas a la hora de realizar una página web a medida, super buena onda, los recomiendo!</p>
+                <div class="row text-center" data-aos="fade-up">
+                    <div class="col-md-3 mr-5">
+                    	<img src="image/ilustracion1.svg" alt="Mujeres Hablando" class="img_nosotros">
+                        <h4 class="my-3">Rápidos a la hora entregar</h4>
+                        <p>Nuestra estrcutura ordenada, nos permite llevar a cabo nuestros proyectos de una manera más ágil y rápida</p>
+                    </div>
+                    <div class="col-md-3 mr-5 ml-5">
+                    	<img src="image/ilustracion3.svg" alt="Astronauta en la Luna" class="img_nosotros">
+                        <h4 class="my-3">Te acompañamos siempre</h4>
+                        <p>Nos encargaremos de estar para ti durante todo el proyecto</p>
+                    </div>
+                    <div class="col-md-3 ml-5">
+                    	<img src="image/ilustracion4.svg" alt="Personas" class="img_nosotros">
+                        <h4 class="my-3">Comunicación Frecuente</h4>
+                        <p>Siempre estarás enterados de los cambios o ideas nuevas que aparezcan durante el proceso</p>
                     </div>
                 </div>
             </div>
-</section>
+        </section>
+
+<!--Nuestros clientes-->
+
+ <div class="container p-5">
+ 	<h2 data-aos="fade-up">Nuestros Clientes</h2>
+    <div class="row text-center" data-aos="fade-up">
+
+      <div class="col-lg-4 col-md-6 mb-4 mt-5">
+        <div class="card h-100 bg-dark">
+          <img class="card-img-top" src="image/man.jpg" alt="Cliente">
+          <div class="card-body">
+            <h4 class="card-title text-white">Mario</h4>
+            <p class="card-text text-white">Contratar a VicDevelopers fue lo mejor que pude hacer, fueron muy ràpidos a la hora de entregar mi página web personal, los recomiendo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mt-5">
+        <div class="card h-100 bg-dark">
+          <img class="card-img-top" src="image/women2.jpg" alt="Cliente">
+          <div class="card-body">
+            <h4 class="card-title text-white">Diana</h4>
+            <p class="card-text text-white">Fueron muy amables a la hora de atender mis consutas a la hora de realizar una página web a medida, super buena onda, los recomiendo!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mt-5">
+        <div class="card h-100 bg-dark">
+          <img class="card-img-top" src="image/man2.jpg" alt="Clie">
+          <div class="card-body">
+            <h4 class="card-title text-white">Luis</h4>
+            <p class="card-text text-white">Llevar mi pequeño negocio a internet fue lo mejor, gracias a Kaleidoscope.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <!--Imagen Call to Action-->
 
-<section class="callaction" data-aos="fade-up">
-	<div class="callaction__img">
+        <section class="page-section bg-dark text-white bg_callaction">
+            <div class="container text-center cont_flex">
+                <h2 class="mb-4">¡No esperes más!</h2>
+                <a class="btn btn-light btn-xl" href="pages/contacto.html">Contactanos</a>
+            </div>
+        </section>
 
-		<h2 class="callaction__titulo">¡No Esperes Más!</h2>
-
-		<a href="pages/contacto.html" class="callaction__btn scale-in-center">Contactanos</a>	
-
-	</div>
-</section>
 <!--Portafolio-->
 
 <h2 class="titulo" data-aos="fade-up">Portafolio</h2>
@@ -178,13 +191,31 @@
 
 
 <!--Pie de página-->
-<footer class="footer" id="footer">
-	<div class="contenedor-footer"> 
-		<h3>KALEIDOSCOPE</h3>
-		<p>Todos los derechos reservados</p>
-		<!--Aquí quiero colocar las redes sociales-->
-	</div>	
-</footer>
+
+    <div class="footer-basic bg-dark text-white">
+        <footer>
+            <div class="social">
+            	<div class="social-flex">
+					<img src="image/001-facebook.png" alt="">
+					<img src="image/008-youtube.png" alt="">
+					<img src="image/010-linkedin.png" alt="">
+					<img src="image/011-instagram.png" alt="">
+				</div>
+            </div>
+
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#inicio">Inicio</a></li>
+                <li class="list-inline-item"><a href="#services">Servicios</a></li>
+                <li class="list-inline-item"><a href="#">Acerca de Nosotros</a></li>
+                <li class="list-inline-item"><a href="#">Contacto</a></li>
+                <li class="list-inline-item"><a href="#">Políticas de Privacidad</a></li>
+            </ul>
+            <p class="copyright">Kaleidoscope © 2020</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
