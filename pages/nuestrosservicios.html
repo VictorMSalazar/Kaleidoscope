@@ -4,10 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	<title>Kaleidoscope</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="image/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Kaleidoscope</title>
 	 <meta name= "keywords" content="HTML,CSS,JAVASCRIPT,JS,REACT,WORDPRESS,WEB,DISEÑO,SERVICIOS,PRECIOS">
   	<meta name="description" content="En Kaleidoscope, contamos con un gran apartado de servicios, miralos ahora, y escoge el que más se adapte a ti, y no olvides contactarnos">
 </head>
@@ -53,10 +56,7 @@
 	</nav>-->
 </header>
 
-<!--Icono Flotante Whatsapp-->
-<div class="boton_flotante">
-	<a href="pages/contacto.html" class="contact_wsp"><img src="../image/005-whatsapp.svg" alt="Whatsapp" ></a>
-</div>
+
 
 	<!--Subtitulo-->
 	<h2>Servicios</h2>
@@ -65,88 +65,108 @@
 <section>
 	<article>
 		<div class="parrafo_promos">
-			<p>¡Tenemos las mejores promociones para ti, en cuanto a desarrollar tu propia pagina web se trata! Revisa la tabla de acá abajo y checa nuestros paquetes:</p>
+			<p>¡Tenemos las mejores promociones para ti, en cuanto a desarrollar tu propia pagina web se trata! Pegale un ojo a nuestras promos:</p>
 		</div>
 	</article>
 </section>
 
-<!--Tabla de Precios-->
-	<section class="tabla">
-		<article>
-			<div class="tab">
-			<table cellpadding="10" border="1">
-				<th>Nombre</th>
-				<th>Qué Incluye</th>
-				<th>Precio</th>
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Inicio</h5>
+            <h6 class="card-price text-center">$150</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Landing Page</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB de almacenamiento</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Web con 5 secciones</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Un año de hosting gratis</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Publicidad en redes sociales</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Desarrollaremos tu marca</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Desarrollo de una app para móviles</li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Contacto</a>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Medium</h5>
+            <h6 class="card-price text-center">$250</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Landing Page</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB de almacenamiento</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Web con 5 secciones</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Un año de Hosting gratis</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Publicidad en redes sociales</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Desarrollaremos tu marca</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Desarrollo de una app para móviles</li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Contacto</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Master</h5>
+            <h6 class="card-price text-center">$500</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Landing Page</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB de almacenamiento</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Web con 5 secciones</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Un año de Hosting gratis</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Publicidad en redes sociales</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Desarrollaremos tu marca</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Desarrollo de una app para móviles</li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-				<tr class="infoTabla">
-					<TD>Promo Inicio</TD>
-					<TD>
-						<ul>
-							<li>Landing Page</li>
-							<li>Un año de hosting gratis</li>
-						</ul>
-					</TD>
-					<td>100$</td>
-				</tr>
-
-				<tr class="infoTabla">
-					<td>Promo Medium</td>
-					<td>
-						<ul>
-							<li>Landing Page</li>
-							<li>Con 5 secciones</li>
-							<li>Un año de hosting gratis</li>
-						</ul>
-					<td>250$</td>
-				</tr>
-
-				<tr class="infoTabla">
-					<td>Promo Advanced</td>
-					<td>
-						<ul>
-							<li>Landing Page</li>
-							<li>Con 5 secciones</li>
-							<li>Un año de hosting gratis</li>
-							<li>Publicidad en Redes Sociales</li>
-						</ul>
-					</td>
-					<td>500$</td>
-				</tr>
-				<tr class="infoTabla">
-					<td>Promo Master</td>
-					<td>
-						<ul>
-							<li>Landing Page</li>
-							<li>Con 5 secciones</li>
-							<li>Un año de hosting gratis</li>
-							<li>Trabajaremos en conjunto para desarrollar tu marca</li>
-							<li>Desarrollaremos una App para SmartPhone</li>
-						</ul>
-					</td>
-					<td>900$</td>
-				</tr>
-			</table>
-			</div>
-		</article>
-	</section>
 
 		<!--Texto bajo tabla-->
 	<section>
 		<article>
-			<div class="parrafo_promos"><p>Si necesitas, algo personalizado, contacta con nosotros!</p></div>
+			<div class="parrafo_promos"><p>Si necesitas, algo personalizado, <a href="contacto.html">contacta</a> con nosotros!</p></div>
 		</article>
 	</section>
 
 <!--Pie de página-->
-<footer class="footer" id="footer">
-	<div>
-		<h3>KALEIDOSCOPE</h3>
-		<p>Todos los derechos reservados</p>
-		<!--Aquí quiero colocar las redes sociales-->
-	</div>	
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <div class="footer-basic bg-dark text-white">
+        <footer>
+            <div class="social">
+              <div class="social-flex">
+          <img src="../image/001-facebook.png" alt="">
+          <img src="../image/008-youtube.png" alt="">
+          <img src="../image/010-linkedin.png" alt="">
+          <img src="../image/011-instagram.png" alt="">
+        </div>
+            </div>
+
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#inicio">Inicio</a></li>
+                <li class="list-inline-item"><a href="#services">Servicios</a></li>
+                <li class="list-inline-item"><a href="#">Acerca de Nosotros</a></li>
+                <li class="list-inline-item"><a href="#">Contacto</a></li>
+                <li class="list-inline-item"><a href="#">Políticas de Privacidad</a></li>
+            </ul>
+            <p class="copyright">Kaleidoscope © 2020</p>
+        </footer>
+    </div><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
